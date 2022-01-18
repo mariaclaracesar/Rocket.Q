@@ -9,6 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/room.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -67,7 +68,7 @@
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="assets/avatar.svg" alt="Avatar" />
+                  <img src="assets/user.svg" alt="Avatar" />
                 </div>
                 <div class="question">
                   <p>Qual a diferença entre const, var e let no JavaScript?</p>
@@ -84,9 +85,94 @@
                 </a>
               </div>
             </div>
+
+            <div class="question-wrapper">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/user.svg" alt="Avatar" />
+                </div>
+                <div class="question">
+                  <p>O que é JavaScript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="check">
+                  <img src="assets/check.svg" alt="Marcar como lida" />
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/user.svg" alt="Avatar" />
+                </div>
+                <div class="question">
+                  <p>
+                    Você já sabe quais são as bases que vocẽ precisa para
+                    alcançar o seu próximo nível com maestria?
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="check">
+                  <img src="assets/check.svg" alt="Marcar como lida" />
+                  Marcar como lida
+                </a>
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper read">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/user.svg" alt="Avatar" />
+                </div>
+                <div class="question">
+                  <p>O que é TypeScript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
+              </div>
+            </div>
           </div>
         </section>
       </main>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir pergunta</h2>
+        <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+        <form action="#">
+          <label class="sr-only" for-id="password">Digita sua senha</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Digite sua senha"
+          />
+
+          <div class="buttons">
+            <div class="button grey">Cancelar</div>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
