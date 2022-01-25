@@ -118,7 +118,7 @@ button.grey,
 
 .content header {
   width: 80%;
-  margin: 3.5rem;
+  margin: 3.5rem auto;
 }
 
 .content header img {

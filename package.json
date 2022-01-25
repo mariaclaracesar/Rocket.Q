@@ -1,0 +1,30 @@
+{
+  "name": "Rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaclaracesar/Rocket.Q.git"
+  },
+  "keywords": [],
+  "author": "Maria Clara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariaclaracesar/Rocket.Q/issues"
+  },
+  "homepage": "https://github.com/mariaclaracesar/Rocket.Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
