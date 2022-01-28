@@ -1,8 +1,10 @@
 <h1 align="center">
-  <img alt="GoFinances" title="GoFinances" src="public/images/logo.svg" />
+  <img alt="RocketQ" title="RocketQ" src="public/images/logo.svg" />
 </h1>
 
 <br>
+
+<img alt="RocketQ" title="RocketQ" src="public/images/home.png" />
 
 ## ✨ Tecnologias
 
